@@ -18,7 +18,6 @@ public class BookReader2  {
         //log = new  LogFile("log.txt");
         BookListReader bl_reader = new BookListReader();
         bl_reader.readList(file_path+"00_Список.txt");
-        System.out.println("Список файлов :");
         System.out.println("Список файлов для анализа :");
         ArrayList<String> checkedList = new ArrayList<>();
         for (String s : bookList) {
